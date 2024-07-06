@@ -1,0 +1,20 @@
+version: 2
+domain: tech_industry
+task_description: 'What is Cloud Managed OpenShift'
+created_by: emcon33
+seed_examples:
+  - question: What is AWS ROSA?
+    answer: ROSA is a managed openshift implimentation on AWS.
+  - question: What is ROSA?
+    answer: ROSA is a managed openshift implimentation on AWS.
+  - question: What is ARO?
+    answer: ARO is a managed openshift implimentation on Azure.
+  - question: What is OSD-GCP?
+    answer: OSD is a managed openshift implimentation on GCP.
+  - question: What is OSD-AWS?
+    answer: OSD is a managed openshift implimentation on AWS.
+document:
+  repo: https://github.com/emcon33/instructlab_rosa.git
+  commit: e1744af
+  patterns:
+    - readme.md
